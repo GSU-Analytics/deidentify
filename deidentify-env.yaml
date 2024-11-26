@@ -1,0 +1,16 @@
+# environment.yml
+#    conda env create -f deidentify-env.yaml
+
+name: deidentify
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - pyyaml
+  - faker
+  - pip
+  - pip:
+      - mkdocs
+      - mkdocs-material

@@ -1,17 +1,19 @@
 # config.yaml
 
-# Input file path
-file_path: "../data/us_cohort_health_fall2024_records.csv"
+# Path to the input CSV file
+file_path: "./data/demo.csv"
 
-# Column configuration
-id_column: PIDM  # Unique identifier to hash
-first_name_column: FIRST_NAME  # Optional first name column for de-identification
-last_name_column: LAST_NAME  # Optional last name column for de-identification
+# Unique identifier to hash
+id_column: PIDM
 
-# Year shift for dates (not applicable in this data, but placeholder)
+# First and last name columns for de-identification
+first_name_column: FIRST_NAME
+last_name_column: LAST_NAME
+
+# Number of years to shift dates backward
 shift_years: 2
 
-# Columns to be anonymized
+# Categorical columns to anonymize
 categorical_columns:
   - MOST_RECENT_STUDENT_LEVEL
   - COLLEGE
@@ -19,40 +21,25 @@ categorical_columns:
   - ASTD_STATUS
   - SAP_STATUS
 
-# Semester columns (if term format is YYYYMM; placeholder for GRAD_TERM)
+# Semester columns in YYYYMM format to shift
 semester_columns:
   - COHORT
   - GRAD_TERM
   - MOST_RECENT_TERM_ENROLLED
 
-# Optional columns
-email_column: EMAIL  # De-identify email column if provided
-phone_column: PHONE  # De-identify phone number column if provided
-student_id_column: PANTHERID  # Another ID to hash for consistency
+# Email and phone columns for de-identification
+email_column: EMAIL
+phone_column: PHONE
+
+# Another ID column to hash for consistency
+student_id_column: PANTHERID
+
+# Integer columns to adjust randomly by +/- 1
 integer_columns:
   - HOURS_EARNED
-  - OUTSTANDING_FINANCIAL_BALANCE
+
+# Float columns to adjust randomly by +/- 0.25
 float_columns:
+  - OUTSTANDING_FINANCIAL_BALANCE
   - INSTITUTIONAL_GPA
   - OVERALL_GPA
-
-# file_path: "../data/us_cohort_health_fall2024_enrollment.csv"
-
-# # Shift the years back 
-# shift_years: 2
-
-# categorical_columns:
-#   - Coll.Type
-#   - Coll.State
-#   - Enroll.Major1
-#   - Enroll.Major1.CIP
-#   - Enroll.Major2
-#   - Enroll.Major2.CIP
-
-# time_date_columns:
-#   - Enroll.Begin
-#   - Enroll.End
-#   - Grad.Date
-
-# semester_columns:
-#   - Enroll.Term 
