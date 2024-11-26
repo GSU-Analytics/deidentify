@@ -12,6 +12,12 @@
 
 ---
 
+## Documentation
+
+For full documentation, visit: [Deidentify Documentation](https://gsu-analytics.github.io/deidentify/)
+
+---
+
 ## Installation
 
 ### Remote Installation
