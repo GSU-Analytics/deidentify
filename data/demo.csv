@@ -1,0 +1,11 @@
+PIDM,FIRST_NAME,LAST_NAME,MOST_RECENT_STUDENT_LEVEL,COLLEGE,MAJOR,ASTD_STATUS,SAP_STATUS,COHORT,GRAD_TERM,MOST_RECENT_TERM_ENROLLED,EMAIL,PHONE,PANTHERID,HOURS_EARNED,OUTSTANDING_FINANCIAL_BALANCE,INSTITUTIONAL_GPA,OVERALL_GPA
+123456,John,Doe,Freshman,Arts,History,Active,Good,202101,202305,202401,john.doe@example.com,555-123-4567,890123,15,500.50,3.4,3.6
+234567,Jane,Smith,Sophomore,Engineering,Computer Science,Active,Warning,202002,202406,202402,jane.smith@example.com,555-987-6543,123456,30,0.00,3.8,3.9
+345678,Alice,Brown,Junior,Science,Biology,Inactive,Probation,202003,202405,202403,alice.brown@example.com,555-456-7890,789012,45,1200.75,2.5,2.6
+456789,Bob,Johnson,Senior,Business,Marketing,Active,Good,202004,202404,202404,bob.johnson@example.com,555-321-6548,567890,60,200.25,3.2,3.3
+567890,Mary,White,Freshman,Nursing,Nursing,Active,Good,202005,202303,202405,mary.white@example.com,555-789-1234,345678,12,800.10,4.0,3.9
+678901,James,Davis,Senior,Law,Pre-Law,Inactive,Good,202006,202406,202406,james.davis@example.com,555-654-9876,234567,60,100.00,2.9,3.0
+789012,Susan,Martinez,Junior,Education,Elementary Education,Active,Probation,202007,202405,202407,susan.martinez@example.com,555-147-2580,678901,48,300.40,2.8,2.7
+890123,Karen,Taylor,Sophomore,Engineering,Mechanical Engineering,Inactive,Warning,202008,202305,202408,karen.taylor@example.com,555-963-8527,345678,24,0.00,3.7,3.8
+901234,David,Wilson,Freshman,Arts,Music,Active,Good,202009,202304,202409,david.wilson@example.com,555-753-1598,123890,6,1500.20,2.4,2.3
+101234,Emily,Moore,Sophomore,Science,Chemistry,Active,Good,202010,202303,202410,emily.moore@example.com,555-852-7413,567890,18,400.00,3.5,3.6
