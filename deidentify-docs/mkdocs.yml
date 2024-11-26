@@ -1,0 +1,10 @@
+site_name: Deidentify Documentation  # Name of your project
+theme:
+  name: material  # Use the Material theme
+nav:
+  - Home: index.md
+  - Setup: setup.md
+  - Usage: usage.md
+  - Examples: examples.md
+  - Configuration: configuration.md
+  - Functions: functions.md

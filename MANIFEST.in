@@ -1,0 +1,13 @@
+# Include the configuration and example files
+include deidentify-env.yaml
+include config.yaml
+include deidentify.py
+recursive-include data *.csv
+
+# Include README and any documentation files
+include README.md
+
+# Exclude unnecessary files and directories
+global-exclude *.pyc
+global-exclude __pycache__/
+global-exclude .pytest_cache/
